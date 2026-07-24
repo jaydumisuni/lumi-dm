@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+builder_cache/
+build_config/
+dist/
+build/
+release/
+out/
+installer_output/
+test-output/
+*.log
+android/local.properties

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "package": "Lumi-DM-clean-source",
+  "source_commit": "67daf3a4e3e95c81738da7bb5eb84b4cbe4186a4",
+  "public_downloads": "GitHub Releases only",
+  "builder_owned": [
+    "all dependency preparation",
+    "all platform packaging",
+    "Python sidecar packaging",
+    "installer",
+    "uninstall registration",
+    "signing",
+    "release publishing"
+  ],
+  "excluded": [
+    "run-from-source instructions",
+    "desktop-wrapper download",
+    "local build launchers",
+    "npm build scripts",
+    "electron-builder configuration",
+    "platform wrapper binaries",
+    "machine-specific build settings",
+    "stock installer configuration",
+    "generated artifacts",
+    "old Reminal compatibility files"
+  ]
+}
